@@ -32,7 +32,7 @@ const MFIRegistration = ({ setIsAuthenticated }) => {
     setIsLoading(true);
     try {
       const response = await axios.post(
-        "htt://letsema-backend-production.up.railway.app/api/authentication/register/",
+        "http://letsema-backend-production.up.railway.app/api/authentication/register/",
         formData
       );
       setMessageType("success");

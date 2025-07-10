@@ -229,7 +229,7 @@ const Dashboard = () => {
     const fetchUserData = async () => {
       try {
         const response = await axios.get(
-          "htt://letsema-backend-production.up.railway.app/api/auth/user/",
+          "http://letsema-backend-production.up.railway.app/api/auth/user/",
           {
             headers: { Authorization: `Bearer ${token}` },
           }

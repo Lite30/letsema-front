@@ -52,7 +52,7 @@ const UserRegistration = ({ setIsAuthenticated }) => {
       console.log("Sending registration data:", payload);
       
       const response = await axios.post(
-        "htt://letsema-backend-production.up.railway.app/api/users/register/",
+        "http://letsema-backend-production.up.railway.app/api/users/register/",
         payload,
         {
           headers: {
