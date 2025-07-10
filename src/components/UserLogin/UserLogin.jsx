@@ -68,7 +68,7 @@ const UserLogin = () => {
 
       // Get JWT token
       const response = await axios.post(
-        `${API_BASE_URL}/auth/token/`,
+        `${API_BASE_URL}/api/auth/token/`,
         formData
       );
 
@@ -76,7 +76,7 @@ const UserLogin = () => {
 
       // Get user data with the token
       const userResponse = await axios.get(
-        `${API_BASE_URL}/users/validate-token/`,
+        `${API_BASE_URL}/api/users/validate-token/`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
 
