@@ -854,7 +854,7 @@ const LandingPage = () => {
           </div>
           <div className="footer-bottom">
             <div className="footer-info">
-              <p>© 2025 Letsema - NUL MACS Project. All rights reserved.</p>
+              <p>© 2025 Letsema - Created by Liteboho Maseli, Keketso Tolo, Mosiuoa Sello. All rights reserved.</p>
             </div>
             <div className="footer-legal">
               <a href="#">Privacy Policy</a>
