@@ -6,7 +6,7 @@ import {
   clearAuthData,
 } from "./authUtils";
 
-const API_BASE_URL = "letsema-backend-production.up.railway.app";
+const API_BASE_URL = "https://letsema-backend-production.up.railway.app";
 
 // Helper function to handle token refresh
 const refreshAuthToken = async () => {

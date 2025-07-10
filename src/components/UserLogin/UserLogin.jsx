@@ -16,7 +16,7 @@ import FacebookIcon from "/src/assets/facebook-icon.svg";
 import MicrosoftIcon from "/src/assets/microsoft-icon.svg";
 
 // Base API URL
-const API_BASE_URL = "letsema-backend-production.up.railway.app";
+const API_BASE_URL = "https://letsema-backend-production.up.railway.app";
 
 const UserLogin = () => {
   const [formData, setFormData] = useState({
